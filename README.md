@@ -23,7 +23,7 @@ TravelOut is a small travel recommendation site built with HTML, CSS, and JavaSc
 
 ## Running the Project
 
-Open `travel_recommendation.html` in a browser.
+Open `index.html` in a browser.
 
 If your browser blocks local JSON fetching from the `file://` protocol, run the project from a simple local server instead. For example:
 
@@ -34,7 +34,7 @@ python3 -m http.server 8000
 Then visit:
 
 ```text
-http://localhost:8000/travel_recommendation.html
+http://localhost:8000/index.html
 ```
 
 ## Notes
