@@ -12,7 +12,7 @@ TravelOut is a small travel recommendation site built with HTML, CSS, and JavaSc
 
 ## Project Structure
 
-- `travel_recommendation.html` - homepage
+- `index.html` - homepage
 - `search-results.html` - search results page
 - `about.html` - About page
 - `contact.html` - Contact page
