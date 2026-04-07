@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Search Results - TravelOut</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+            <div class="logo">
+                <a href="./travel_recommendation.html" id="logo-link">TravelOut</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="./travel_recommendation.html" id="home">Home</a></li>
+                <li><a href="./about.html" id="about">About Us</a></li>
+                <li><a href="./contact.html" id="contact">Contact Us</a></li>
+                <li><search>
+                    <form action="./search-results.html" method="get">
+                        <input type="search" name="query" placeholder="Search..." aria-label="Search through site content">
+                        <button type="submit">Search</button>
+                        <button type="button" id="btnReset">Clear</button>
+                    </form>
+                </search></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Search Results</h1>
+            <div id="results"></div>
+        </main>
+        <script src="travel_recommendation.js"></script>
+    </body>
+</html>
